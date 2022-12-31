@@ -5,6 +5,7 @@ openwrt下crontab定时任务实现
 (1) 在/usr/bin/目录下新建check_process.sh脚本文件：
 
 echo “hello world!” >> /etc/config/test
+ ![Image text](image/1.png) 
 
 (2) 更改check_process.sh脚本执行权限
 chmod 755 check_process.sh
